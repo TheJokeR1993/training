@@ -1,0 +1,498 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/main.css">
+
+    <title>Hello, world!</title>
+   
+  </head>
+  <body>
+    <header class="container-fluid inner d-flex flex-column">
+      <nav class="navbar container navbar-expand-lg  py-5 ">
+        <div href="#" class="navbar-brand ">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="86" height="29" viewBox="0 0 86 29">
+            <image id="Atis" width="86" height="29" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFYAAAAdCAYAAAAwyZtYAAAEsklEQVRogdVa/3USQRAe8/g/WAFnBZIKJBWIFQQr8FKAijQgqUCuArGCkArkKhA64P7Wx/MtzoRx7pu9vQQwfu/xQnb3dme/mZ0fezx79v4nPQF0iahPRAMWZUNEcyJaPQXhYthOOrAXt54GGRENiWhERC/Bip+J6IKIlrWe/wD/gthglTkRvTbta7bQYLnn3Db8X4k9q7UcD4HQBRHdKlIDmddE9IItOIwZKwlO4QrEBfVrPY/AKSxWyHql2kq22oUZ2zfEHtNagwuaqtNBrOjBIRR6TIvtsuC3itSKLbQPSA3jZ2qj5RGJDS7miyE1oGcU+2Acy2KHhqSAO7YSZA1dJloHsWltVBxd/qD5LUa1lj0GtZYH4NAWK1b61ZD6KXLEEKkVp1upyHnuH6zQx6DNui4OabEZC2UJyiObRaQSK2dTG40R5r5SPdbFIExBVlLxXDkY3xoxYjP2hfLp1kb82fySrcUGgoqt1POTHqkUUQQap0m9Tnx2wZnIUMmxbKHMRiBiR6w1tGEEq/mAJlKJCUBrFI7LQM9rUouWfnn1AD+eDE3skBfqHWDec9741LGgmaMQcsajMZrUsiEgHQpd5inj+VaevHJXMOL0w0KCyJyPiz4qdnMe7kykzblcRSidRD20fee5NkYpFfen5p4D3u/CIwXAqxYDLreTTs2vd1QktyhZO0hgj9RPPJe4k54hqh8hlSIb3XDy/qrWsz8dK/4s1HeLkKN+5LYrNd5D5gQ6Yn68dXYWO+AkXqPiSZEz9yzOWibx/1J5xYKV4LmzJvHzy0RX9QakTcgnx9yHzcUL/itzXIb9xG63EONehBw6pFbcZ7FQFjFuIPWbs6ZgBkh9o7KXjC26BKSOW/pk7Rq/qTxZWzeqHu8hxN4Q0bta79/IIkd13EBKljC/KyQrzR7HAhCIMFLHX5BCasXf9RraraH08x5SeY1Zi2gCwRzU1sS+D/lojZSk2yO26yg0pabvA9mKSBo4UKQOAKnnZqwLcRAbdZwysMlYXptCWsxCBN5mc6DQ0nFhFva+giJWPlJKmAF5rKvLCODsw69dQWU9L4py3Yh1rCOCCgZgcxZlrWW/NlKcpwQNzxiQvDbdHIJ1rXHUgujZh18SoFcplzDIYgQplQvUrIHnn4fO2k1zjpwgi5CBHL5niM0RkVoOReou/UshNnaMkfbdxSPwAgHKNIijP5JLAiwqdgQ5GI8w5jViStrtjY//kk/IejvpTJve0krFg1BFCNEYg6iMcM3C6c1uHIsVrJXryhyrQlhz22PL9wtWlE7ldpUYzm738CyGWtzuLxKJtVaBAo9F74HkHOI+hIDRvZXy9hQvEx/zemVda2lG1fK5tuM9BFLv3copiN2ocjAFOtPwclsPZcJ1pYZc+qDMo428l5pUSiDWi9ZNfRY5W0YTpDSWuVOfI64ehVQvIGkU6nVRUOTb2og4Kr506qPbrSZi52BjMmHM/1pIAXJX69kDWduGg1IB5CB+5obfBuRKIUIUkr3gC5QRuAa9iOTUxNZZ8Ny7/H476UADS/ntli4L5ywAnCwRgbygFCmbxWJSUjf5jZe8EkqB/j1Y6jOyjsB9Ft5uEdFvYiNN/B01Tg4AAAAASUVORK5CYII="/>
+          </svg>
+
+        </div>
+
+          <button class="navbar-light navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon "></span>
+         </button>
+
+          <div class="collapse   navbar-collapse justify-content-end" id="collapsibleNavbar">
+            <ul class="navbar-nav nav-justified">
+              <li class="navbar-item">
+                <a href="#" class="nav-link text-none px-3 mb-2 mt-3 my-lg-0">Flights</a>
+              </li>
+              <li class="navbar-item">
+                <a href="#" class="nav-link  px-3 my-2 my-lg-0">Hotels</a>
+              </li>
+              <li class="navbar-item">
+                <a href="#" class="nav-link  px-3 my-2 my-lg-0">Explore</a>
+              </li>
+              <li class="navbar-item">
+                <a href="#" class="nav-link  px-3 my-2 my-lg-0">Restaurants</a>
+              </li>
+              <li class="navbar-item">
+                <a href="#" class="nav-link  px-3 my-2 my-lg-0">Things to do</a>
+              </li>
+              <li class="navbar-item">
+                <a href="#" class="nav-link  px-3 my-2 my-lg-0">About Greece </a>
+              </li>
+              <li class="navbar-item">
+                <a href="#" class="nav-link  px-3 my-2 my-lg-0">Become a host</a>
+              </li>
+            </ul>
+           </div>
+      </nav>
+
+      <div class="header_title flex-grow-1 d-flex flex-column align-items-center justify-content-center mb-5">
+        <img class="mw-100" src="style/imd/Greece.png">
+        <h3>welcome to Heaven</h3>
+        <div class="text-center">
+          <a data-toggle="modal" data-target="#header_modal" class="btn  bg-white text-primary px-5 py-2" >Check offer</a>
+
+          <div class="modal" id="header_modal">
+            <div class="modal-dialog modal-dialof-center">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h3 class="modal-title">Lorem ipsum dolor.</h3>
+                  <button class="close" data-dismiss="modal">&times</button>
+                 </div>
+                 <div class="modal-footer">
+                   <button data-dismiss="modal" class="btn btn-sm btn-outline-success text-uppercase">Send</button>
+                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+     
+    </header>
+
+    <div class="navigation container-fluid bg-primary">
+      <ul class="row nav container  w-100 h-100 align-content-center justify-content-center py-5 px-0">
+          <li class="nav-items col-lg-2 col-md-3 col-12  pr-md-3 mb-4">
+            <a class="align-items-center py-3" href="#">
+              <img src="style/imd/City.png" alt="">city
+            </a>
+          </li>
+          <li class="nav-items col-lg col-md-3 col-12  pr-2 mb-4">
+            <a class="align-items-center py-3 " href="#">
+              <img  src="style/imd/CheckIn.png" alt="">check in
+            </a>
+          </li>
+          <li class="nav-items col-lg col-md-3 col-12 mb-4  pr-2">
+            <a class="align-items-center py-3" href="#">
+              <img src="style/imd/CheckIn.png" alt="">check out
+            </a>
+          </li>
+          <li class="nav-items col-lg col-md-3 col-12 mb-4 pr-2">
+            <a class="align-items-center py-3" href="#">
+              <img src="style/imd/Rooms.png" alt="">rooms
+            </a>
+          </li>
+          <li class="nav-items col-lg  col-md-3 col-12 mb-4 pr-2">
+            <a class="align-items-center py-3" href="#">
+              <img src="style/imd/Adults.png" alt="">adults
+            </a>
+          </li>
+          <li class="nav-items col-lg col-md-3 col-12 mb-4 pr-2">
+            <a class="align-items-center py-3" href="#">
+              <img src="style/imd/Children.png" alt="">children
+            </a>
+          </li>
+           <li class="nav-items col-lg col-md-3 col-12 mb-4 pr-2">
+            <a class="align-items-center py-3" href="#">
+              <img src="style/imd/Star.png" alt="">stars
+            </a>
+          </li>
+           <li class="nav-items col-lg col-md-3 col-12 mb-4 pr-2">
+             <form action="#" class="d-flex  justify-content-md-center align-items-md-center h-100">
+               <button class="d-lg-none btn btn-light w-100" type="text">
+                 <img src="style/imd/Search.png" alt="">
+               </button>
+               <button class="d-none d-lg-inline btn btn-light rounded-circle" type="text">
+                 <img src="style/imd/Search.png" alt="">
+               </button>
+             </form>
+          </li>
+      </ul>
+    </div>
+
+    <section class="pictures container-fluid p-0">
+       <h3 class="text-secondary p-5">most popular places</h3>
+       <div class="pictures_block row container-fluid no-gutters p-0 h-100">
+
+         <div class="col-lg-4 col-12 pr-lg-3">
+          <div class="pictures_items mb-3">
+            <img src="style/imd/Photo.png" alt="">
+            <h2 class="pictures_name">thessaloniki</h2>
+            <div class="pictures_info">
+              <div class="pictures_title">
+                <h2 class="mb-3">thessaloniki</h2>
+                <ul class="nav">
+                  <li class="nav-item">
+                    <a href="#" class="nav-link ">Flignts</a></li>
+                  <li class="nav-item">
+                     <a href="#" class="nav-link ">restourants</a></li>
+                 <li class="nav-item">
+                    <a href="#" class="nav-link ">hotels</a></li>
+                 </ul>
+              </div>
+            </div>
+          </div>
+          <div class="pictures_items mt-3">
+            <img src="style/imd/Photo1.png" alt="">
+            <h2 class="pictures_name">Halkidiki</h2>
+             <div class="pictures_info">
+              <div class="pictures_title">
+                <h2 class="mb-3">Halkidiki</h2>
+                <ul class="nav">
+                  <li class="nav-item">
+                    <a href="#" class="nav-link ">Flignts</a></li>
+                  <li class="nav-item">
+                     <a href="#" class="nav-link ">restourants</a></li>
+                 <li class="nav-item">
+                    <a href="#" class="nav-link ">hotels</a></li>
+                 </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 py-3 py-lg-0">
+          <div class="pictures_items h-100">
+            <img src="style/imd/Photo2.png" alt="">
+            <h2 class="pictures_name">Crete</h2>
+             <div class="pictures_info">
+              <div class="pictures_title">
+                <h2 class="mb-3">Crete</h2>
+                <ul class="nav">
+                  <li class="nav-item">
+                    <a href="#" class="nav-link ">Flignts</a></li>
+                  <li class="nav-item">
+                     <a href="#" class="nav-link ">restourants</a></li>
+                 <li class="nav-item">
+                    <a href="#" class="nav-link ">hotels</a></li>
+                 </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-12 pl-lg-3">
+          <div class="pictures_items mb-3 ">
+            <img src="style/imd/Photo3.png" alt="">
+            <h2 class="pictures_name">Athens</h2>
+             <div class="pictures_info">
+              <div class="pictures_title">
+                <h2 class="mb-3">Athens</h2>
+                <ul class="nav">
+                  <li class="nav-item">
+                    <a href="#" class="nav-link ">Flignts</a></li>
+                  <li class="nav-item">
+                     <a href="#" class="nav-link ">restourants</a></li>
+                 <li class="nav-item">
+                    <a href="#" class="nav-link ">hotels</a></li>
+                 </ul>
+              </div>
+            </div>
+          </div>
+          <div class="pictures_items mt-3">
+            <img src="style/imd/Photo32.png" alt="">
+            <h2 class="pictures_name">Mykonos</h2>
+             <div class="pictures_info">
+              <div class="pictures_title">
+                <h2 class="mb-3">Mykonos</h2>
+                <ul class="nav">
+                  <li class="nav-item">
+                    <a href="#" class="nav-link ">Flignts</a></li>
+                  <li class="nav-item">
+                     <a href="#" class="nav-link ">restourants</a></li>
+                 <li class="nav-item">
+                    <a href="#" class="nav-link ">hotels</a></li>
+                 </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+         <div class="col-lg-6 pt-3 pb-lg-2 pr-lg-2">
+          <div class="pictures_items h-100">
+            <img src="style/imd/Meteora.png" alt="">
+            <h2 class="pictures_name">meteora</h2>
+             <div class="pictures_info">
+              <div class="pictures_title">
+                <h2 class="mb-3">meteora</h2>
+                <ul class="nav">
+                  <li class="nav-item">
+                    <a href="#" class="nav-link ">Flignts</a></li>
+                  <li class="nav-item">
+                     <a href="#" class="nav-link ">restourants</a></li>
+                 <li class="nav-item">
+                    <a href="#" class="nav-link ">hotels</a></li>
+                 </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+         <div class="col-lg-6 pt-3 pl-lg-2 pb-3 pb-lg-2">
+          <div class="pictures_items h-100">
+            <img src="style/imd/myrtos.png" alt="">
+            <h2 class="pictures_name">myrtos beach</h2>
+             <div class="pictures_info">
+              <div class="pictures_title">
+                <h2 class="mb-3">myrtos beach</h2>
+                <ul class="nav">
+                  <li class="nav-item">
+                    <a href="#" class="nav-link ">Flignts</a></li>
+                  <li class="nav-item">
+                     <a href="#" class="nav-link ">restourants</a></li>
+                 <li class="nav-item">
+                    <a href="#" class="nav-link ">hotels</a></li>
+                 </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+       </div>
+    </section>
+
+     <section class="hotels container-fluid p-0">
+       <h3 class="text-secondary p-5">most popular hotels</h3>
+       <div class="row container">
+
+          <div class="hotels_card col-lg-3 col-md-6 mb-5">
+            <img src="style/imd/hotels1.jpg" alt="">
+            <div class="card_info d-flex justify-content-around align-items-center">
+              <div class="card_name">
+                <h6>El Greco</h6>
+                <div class="stars d-flex">
+                  <img src="style/imd/Stars.png" alt="">
+                  <img src="style/imd/Stars.png" alt="">
+                  <img src="style/imd/Stars.png" alt="">
+                  <img src="style/imd/Stars.png" alt="">
+                </div>
+              </div>
+              <div class="card_price">
+                <h2>225$</h2>
+                <p>10 days</p>
+              </div>
+            </div>
+            <button class=" btn btn-lg text-primary bg-white">View more</button>
+          </div>
+
+          <div class="hotels_card col-lg-3 col-md-6 mb-5">
+            <img src="style/imd/hotels2.jpg" alt="">
+            <div class="card_info d-flex justify-content-around align-items-center">
+              <div class="card_name">
+                <h6>Panorama</h6>
+                <div class="stars d-flex">
+                  <img src="style/imd/Stars.png" alt="">
+                  <img src="style/imd/Stars.png" alt="">
+                </div>
+              </div>
+              <div class="card_price">
+                <h2>125$</h2>
+                <p>6 days</p>
+              </div>
+            </div>
+            <button class=" btn btn-lg text-primary bg-white">View more</button>
+          </div>
+
+          <div class="hotels_card col-lg-3 col-md-6 mb-5">
+            <img src="style/imd/hotels3.jpg" alt="">
+            <div class="card_info d-flex justify-content-around align-items-center">
+              <div class="card_name">
+                <h6>Cyprotel Corfu</h6>
+                <div class="stars d-flex">
+                  <img src="style/imd/Stars.png" alt="">
+                  <img src="style/imd/Stars.png" alt="">
+                  <img src="style/imd/Stars.png" alt="">
+                </div>
+              </div>
+              <div class="card_price">
+                <h2>95$</h2>
+                <p>4 days</p>
+              </div>
+            </div>
+            <button class=" btn btn-lg text-primary bg-white">View more</button>
+          </div>
+
+          <div class="hotels_card col-lg-3 col-md-6 mb-5">
+            <img src="style/imd/hotels4.jpg" alt="">
+            <div class="card_info d-flex justify-content-around align-items-center">
+              <div class="card_name">
+                <h6>Louis Creta Princess</h6>
+                <div class="stars d-flex">
+                  <img src="style/imd/Stars.png" alt="">
+                  <img src="style/imd/Stars.png" alt="">
+                  <img src="style/imd/Stars.png" alt="">
+                  <img src="style/imd/Stars.png" alt="">
+                </div>
+              </div>
+
+              <div class="card_price">
+                <h2>325$</h2>
+                <p>7 days</p>
+              </div>
+            </div>
+            <button class=" btn btn-lg text-primary bg-white">View more</button>
+          </div>
+           <div class="hotels_card col-lg-3 col-md-6 mb-5">
+            <img src="style/imd/hotels1.jpg" alt="">
+            <div class="card_info d-flex justify-content-around align-items-center">
+              <div class="card_name">
+                <h6>El Greco</h6>
+                <div class="stars d-flex">
+                  <img src="style/imd/Stars.png" alt="">
+                  <img src="style/imd/Stars.png" alt="">
+                  <img src="style/imd/Stars.png" alt="">
+                  <img src="style/imd/Stars.png" alt="">
+                </div>
+              </div>
+
+              <div class="card_price">
+                <h2>225$</h2>
+                <p>10 days</p>
+              </div>
+            </div>
+            <button class=" btn btn-lg text-primary bg-white">View more</button>
+          </div>
+
+          <div class="hotels_card col-lg-3 col-md-6 mb-5">
+            <img src="style/imd/hotels2.jpg" alt="">
+            <div class="card_info d-flex justify-content-around align-items-center">
+              <div class="card_name">
+                <h6>Panorama</h6>
+                <div class="stars d-flex">
+                  <img src="style/imd/Stars.png" alt="">
+                  <img src="style/imd/Stars.png" alt="">
+                </div>
+              </div>
+              <div class="card_price">
+                <h2>125$</h2>
+                <p>6 days</p>
+              </div>
+            </div>
+            <button class=" btn btn-lg text-primary bg-white">View more</button>
+          </div>
+
+          <div class="hotels_card col-lg-3 col-md-6 mb-5">
+            <img src="style/imd/hotels3.jpg" alt="">
+            <div class="card_info d-flex justify-content-around align-items-center">
+              <div class="card_name">
+                <h6>Cyprotel Corfu</h6>
+                <div class="stars d-flex">
+                  <img src="style/imd/Stars.png" alt="">
+                  <img src="style/imd/Stars.png" alt="">
+                  <img src="style/imd/Stars.png" alt="">
+                </div>
+              </div>
+              <div class="card_price">
+                <h2>95$</h2>
+                <p>4 days</p>
+              </div>
+            </div>
+            <button class=" btn btn-lg text-primary bg-white">View more</button>
+          </div>
+
+          <div class="hotels_card col-lg-3 col-md-6 mb-5">
+            <img src="style/imd/hotels4.jpg" alt="">
+            <div class="card_info d-flex justify-content-around align-items-center">
+              <div class="card_name">
+                <h6>Louis Creta Princess</h6>
+                <div class="stars d-flex">
+                  <img src="style/imd/Stars.png" alt="">
+                  <img src="style/imd/Stars.png" alt="">
+                  <img src="style/imd/Stars.png" alt="">
+                  <img src="style/imd/Stars.png" alt="">
+                </div>
+              </div>
+
+              <div class="card_price">
+                <h2>325$</h2>
+                <p>7 days</p>
+              </div>
+            </div>
+            <button class=" btn btn-lg text-primary bg-white">View more</button>
+          </div>
+          <button class="btn btn-lg hotels_btn_all d-none d-lg-block mx-auto px-4 mb-5">
+            View all offers
+          </button>
+          <button class="btn btn-lg hotels_btn_all btn-block d-lg-none py-3 mb-5 ">
+            View all offers
+          </button>
+       </div>
+    </section>
+    <section class="container-fluid carousels my-3" >
+      <div id="demo" class="carousel w-100 h-100 slide" data-ride="carousel">
+
+          <!-- Indicators -->
+          <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+            <li data-target="#demo" data-slide-to="3"></li>
+            <li data-target="#demo" data-slide-to="4"></li>
+          </ul>
+
+          <!-- The slideshow -->
+          <div class="carousel-inner w-100 h-100">
+            <div class="carousel-item w-100 h-100">
+              <img src="style/imd/greece1.png" alt="">
+            </div>
+            <div class="carousel-item w-100 h-100">
+              <img  src="style/imd/greece2.png" alt="">
+            </div>
+            <div class="carousel-item w-100 h-100">
+              <img  src="style/imd/greece3.png" alt="">
+            </div> 
+            <div class="carousel-item w-100 h-100">
+              <img class="d-block" src="style/imd/greece4.png" alt="">
+            </div>
+            <div class="carousel-item w-100 h-100 active">
+              <img  src="style/imd/greece5.png" alt="">
+            </div>
+            <div class="corusel_info w-100 h-100">
+              <h2>And then God said let there be a <span class="text-blue">Greece</span></h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, reprehenderit harum earum hic veritatis tempore quaerat dolores fugit praesentium similique aperiam repudiandae nihil magnam modi, facere ducimus repellat porro mollitia cupiditate, temporibus laborum debitis voluptates libero. Officiis voluptatem illo, tenetur.</p>
+              <b>Lorem ipsum dolor sit amet.</b>
+            </div>
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+
+        </div>
+    </section>
+    <footer class="container p-3 p-lg-5">
+      <div class="">
+        <img class="d-block mx-auto mb-2 mb-lg-4" src="style/imd/AtisG.jpg" alt="">
+        <p class="text-secondary text-center">ⓒ Copyright 2016. All rights reserved by symu.co</p>
+      </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
